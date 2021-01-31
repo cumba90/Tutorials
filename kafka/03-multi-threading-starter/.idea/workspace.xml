@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="250e7ce7-7003-4dd4-9aa0-2a9968c17c90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/03-multi-threading-starter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/learningjournal/kafka/examples/Dispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/learningjournal/kafka/examples/DispatcherDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/0-kafka-server-start.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/0-kafka-server-start.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/1-kafka-server-start.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/1-kafka-server-start.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/2-kafka-server-start.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/2-kafka-server-start.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/consumer-start.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/consumer-start.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/topic-create.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/topic-create.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/zookeeper-start.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/zookeeper-start.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/learningjournal/kafka/examples/AppConfigs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/learningjournal/kafka/examples/AppConfigs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +20,13 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -78,6 +81,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -88,6 +95,74 @@
       <recent name="C:\Udemy\StarterProject\03-multi-threading\data" />
       <recent name="C:\Udemy\StarterProject\03-multi-threading\src\main\resources" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.DispatcherDemo">
+    <configuration name="DispatcherDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guru.learningjournal.kafka.examples.DispatcherDemo" />
+      <module name="03-multi-threading-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.learningjournal.kafka.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="1-kafka-server-start" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="03-multi-threading-starter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="E:\PROJECTS\Tutorials\kafka\03-multi-threading-starter\scripts" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="1-kafka-server-start.cmd" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="2-kafka-server-start" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="03-multi-threading-starter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="E:\PROJECTS\Tutorials\kafka\03-multi-threading-starter\scripts" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="2-kafka-server-start.cmd" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="consumer-start" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="03-multi-threading-starter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="E:\PROJECTS\Tutorials\kafka\03-multi-threading-starter\scripts" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="consumer-start.cmd" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="topic-create" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="03-multi-threading-starter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="E:\PROJECTS\Tutorials\kafka\03-multi-threading-starter\scripts" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="topic-create.cmd" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DispatcherDemo" />
+        <item itemvalue="Batch.consumer-start" />
+        <item itemvalue="Batch.topic-create" />
+        <item itemvalue="Batch.2-kafka-server-start" />
+        <item itemvalue="Batch.1-kafka-server-start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -170,6 +245,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/data/NSE05NOV2018BHAV.csv">
