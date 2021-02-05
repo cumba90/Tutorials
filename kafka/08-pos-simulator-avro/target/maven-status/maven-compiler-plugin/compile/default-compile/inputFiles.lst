@@ -1,0 +1,9 @@
+C:\gitProjects\Tutorials\kafka\08-pos-simulator-avro\src\main\java\guru\learningjournal\kafka\examples\AppConfigs.java
+C:\gitProjects\Tutorials\kafka\08-pos-simulator-avro\src\main\java\guru\learningjournal\kafka\examples\RunnableProducer.java
+C:\gitProjects\Tutorials\kafka\08-pos-simulator-avro\src\main\java\guru\learningjournal\kafka\examples\types\DeliveryAddress.java
+C:\gitProjects\Tutorials\kafka\08-pos-simulator-avro\src\main\java\guru\learningjournal\kafka\examples\types\LineItem.java
+C:\gitProjects\Tutorials\kafka\08-pos-simulator-avro\src\main\java\guru\learningjournal\kafka\examples\datagenerator\InvoiceGenerator.java
+C:\gitProjects\Tutorials\kafka\08-pos-simulator-avro\src\main\java\guru\learningjournal\kafka\examples\types\PosInvoice.java
+C:\gitProjects\Tutorials\kafka\08-pos-simulator-avro\src\main\java\guru\learningjournal\kafka\examples\PosSimulator.java
+C:\gitProjects\Tutorials\kafka\08-pos-simulator-avro\src\main\java\guru\learningjournal\kafka\examples\datagenerator\AddressGenerator.java
+C:\gitProjects\Tutorials\kafka\08-pos-simulator-avro\src\main\java\guru\learningjournal\kafka\examples\datagenerator\ProductGenerator.java
