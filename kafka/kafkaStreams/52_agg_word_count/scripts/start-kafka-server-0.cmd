@@ -1,0 +1,1 @@
+C:\kafka\confluent-6.0.1\bin\windows\kafka-server-start.bat C:\kafka\confluent-6.0.1\etc\kafka\server-0.properties

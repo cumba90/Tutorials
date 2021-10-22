@@ -1,0 +1,1 @@
+C:\kafka\confluent-6.0.1\bin\windows\zookeeper-server-start.bat C:\kafka\confluent-6.0.1\etc\kafka\zookeeper.properties

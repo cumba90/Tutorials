@@ -1,0 +1,1 @@
+C:\kafka\confluent-6.0.1\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 3 --partitions 3 --topic word-count
