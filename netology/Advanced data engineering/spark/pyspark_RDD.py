@@ -1,0 +1,5 @@
+data = sc.textFile("/tmp/movies.csv")
+r1 = data.map(lambda x: x.split(","))
+r2 = r1.flatMap(lambda e: e[1].split(" "))
+r3 = r2.map(lambda e: (e, 1))
+r3.reduceByKey(lambda a,b: a+b).takeOrdered(1, key=lambda x: -x[1])
